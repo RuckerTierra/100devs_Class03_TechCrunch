@@ -1,0 +1,55 @@
+/* conversion table 
+1em = 16px
+*/
+
+body {
+  margin: 0;
+  background-color: lightcyan;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* navigation bar */ 
+nav {
+  /**/
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  background-color: white;
+  border-right: solid black 1px;
+}
+li {
+  padding: 2.5px 20px 2.5px;
+}
+li a {
+  display: inline-block;
+  padding: 5px 20px;
+  text-decoration: none;
+  font-size: 20px;
+  color: grey;
+}
+li a:hover {
+  color: green;
+}
+#tcImg {
+  margin-top: 10px;
+  width: 4rem;
+  height: auto;
+}
+#joinTechCrunch {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+#joinTechCrunch a {
+  color: rgb(235, 200, 47);
+}
+#login {
+  padding-bottom: 25px;
+  font-size: 18px;
+}
+
