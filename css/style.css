@@ -1,6 +1,7 @@
-/* conversion table 
-1em = 16px
-*/
+/*** 
+conversion table 
+1rem = 16px
+***/
 
 body {
   margin: 0;
@@ -8,26 +9,27 @@ body {
   font-family: 'PT Sans', sans-serif;
 }
 
-/* navigation bar */ 
-/* nav {
-} */
+/*** navigation bar */ 
+nav {
+  float:left;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 20%;
+  width: 13%;
   position: fixed;
   height: 100%;
-  overflow: auto;
   background-color: white;
-  border-right: solid black 1px;
-}
+  border-right: solid black 0.50px;
+} 
 li {
-  padding: 2.5px 20px 2.5px;
-}
+  padding: 2.5px 15px 2.5px;
+} 
 li a {
   display: inline-block;
-  padding: 5px 20px;
+  padding: 5px 10px;
   text-decoration: none;
   font-size: 20px;
   color: grey;
@@ -35,9 +37,10 @@ li a {
 li a:hover {
   color: green;
 }
+
 #tcImg {
   margin-top: 10px;
-  width: 4rem;
+  width: 50px;
   height: auto;
 }
 #joinTechCrunch {
@@ -51,9 +54,12 @@ li a:hover {
   padding-bottom: 25px;
   font-size: 18px;
 }
+#techCrunchPlus a:hover {
+  color: rgb(235, 200, 47);
+}
 
-/* main content */
+/*main content*/ 
 main {
-
+  float:left;
 }
 
